@@ -1,0 +1,79 @@
+/* Inserta tu codigo aqui */
+*{
+	/*outline: 1px solid red;*/
+}
+.container{
+	width: 100%;
+}
+.container_header{
+	background: #FFBF00;
+}
+.container img{
+	text-align: center;
+}
+.list-nav{
+	text-align: center;
+}
+.list-nav li{
+	display: inline-block;
+	padding: 35px;
+}
+.list-nav a{
+	display: block;
+	padding: 5px 20px;
+	color:#555555;
+	font-family: "Oswald", Arial, sans-serif;
+	font-weight: bold;
+	transition:all 0.5s;
+	border-radius: 20px;
+}
+.list-nav a:hover{
+    text-decoration: none;
+    background: #ECECEC;
+    transform: scale(1.2)
+}
+.sub-menu{
+	text-align: center;
+}
+.sub-menu li{
+	display: inline-block;
+	padding: 0 35px;
+}
+.sub-menu a{
+	display: block;
+	padding: 5px 20px;
+	color:#555555;
+	font-family: "Oswald", Arial, sans-serif;
+	font-weight: bold;
+	transition:all 0.5s;
+	border-radius: 20px;
+}
+.sub-menu a:hover{
+    text-decoration: none;
+    background: #ECECEC;
+    transform: scale(1.2)
+}
+
+.ing{
+     width: 450px;
+     height: 149px;
+}
+h2{
+	color:#DF0101;
+}
+
+.mapa{
+	width: 450px;
+	height: 400px;
+}
+.footer{
+	background-color: #A4A4A4;
+}
+h3{
+	color: white;
+	padding: 0 20px;
+}
+.col-sm-2{
+	text-align: center;
+	margin-top: 12px;
+}

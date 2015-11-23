@@ -1,0 +1,141 @@
+
+.container_header{
+	background: #FFBF00;
+}
+.list-nav{
+	text-align: center;
+}
+.list-nav li{
+	display: inline-block;
+	padding: 35px 0;
+}
+.list-nav a{
+	display: block;
+	padding: 5px 20px;
+	color:#555555;
+	font-family: "Oswald", Arial, sans-serif;
+	font-weight: bold;
+	transition:all 0.5s;
+	border-radius: 20px;
+}
+.list-nav a:hover{
+    text-decoration: none;
+    background: #ECECEC;
+    transform: scale(1.2)
+}
+.sub-menu{
+	text-align: center;
+}
+.sub-menu li{
+	display: inline-block;
+	padding: 0 35px;
+}
+.sub-menu a{
+	display: block;
+	padding: 5px 20px;
+	color:#555555;
+	font-family: "Oswald", Arial, sans-serif;
+	font-weight: bold;
+	transition:all 0.5s;
+	border-radius: 20px;
+}
+.sub-menu a:hover{
+    text-decoration: none;
+    background: #ECECEC;
+    transform: scale(1.2)
+}
+.ing{
+     width: 450px;
+     height: 149px;
+}
+h2{
+	color:#DF0101;
+	margin-left:30px; 
+}
+
+.container_docentes .parrafo-docentes img{
+	float: left;
+	width: 200px;
+	margin-right: 15px;
+	margin-left: 30px;
+	border: 1px dashed #BDBDBD;
+	padding: 5px;
+}
+.parrafo-docentes{
+	text-align: justify;
+	margin-right: 30px;
+}
+.container_erik .parrafo-erik img{
+	float: left;
+	width: 200px;
+	margin-right: 15px;
+	margin-left: 30px;
+	border: 1px dashed #BDBDBD;
+	padding: 5px;
+}
+.parrafo-erik{
+	text-align: justify;
+	margin-right: 30px;
+}
+.container_fredy .parrafo-fredy img{
+	float: left;
+	width: 200px;
+	margin-right: 15px;
+	margin-left: 30px;
+	border: 1px dashed #BDBDBD;
+	padding: 5px;
+}
+.parrafo-fredy{
+	text-align: justify;
+	margin-right: 30px;
+}
+.footer{
+	background-color: #A4A4A4;
+}
+.container_gonzalo .parrafo-gonzalo img{
+	float: left;
+	width: 200px;
+	margin-right: 15px;
+	margin-left: 30px;
+	border: 1px dashed #BDBDBD;
+	padding: 5px;
+}
+.parrafo-gonzalo{
+	text-align: justify;
+	margin-right: 30px;
+}
+.container_greta .parrafo-greta img{
+	float: left;
+	width: 200px;
+	margin-right: 15px;
+	margin-left: 30px;
+	border: 1px dashed #BDBDBD;
+	padding: 5px;
+}
+.parrafo-greta{
+	text-align: justify;
+	margin-right: 30px;
+}
+.container_johann .parrafo-johann img{
+	float: left;
+	width: 200px;
+	margin-right: 15px;
+	margin-left: 30px;
+	border: 1px dashed #BDBDBD;
+	padding: 5px;
+}
+.parrafo-johann{
+	text-align: justify;
+	margin-right: 30px;
+}
+.footer{
+	background-color: #A4A4A4;
+}
+h3{
+	color: white;
+	padding: 0 20px;
+}
+.col-sm-2{
+	text-align: center;
+	margin-top: 12px;
+}
