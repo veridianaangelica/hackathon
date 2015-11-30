@@ -1,10 +1,6 @@
-/* Inserta tu codigo aqui */
-/**{
-	outline: 1px solid red;
-
-}*/
 body{
 	font-family: Arial;
+	background: #D8D8D8
 }
 .list-menu{
 	background: #D8D8D8;
@@ -33,29 +29,10 @@ body{
     color: black;
     transform: scale(1.2)
 }
+
 .banner{
 	width: 100%;
-}
-.iconos_carreras li{
-	display: inline-block;
-	text-align: center;
-}
-.pregrado{
-	padding-top: 20px;
-	list-style: none;
-	background: #D8D8D8;
-}
-.pregrado a{
-	color:black;
-	transition:all 0.5s;
-	transform: scale(1.2)
-}
-.pregrado a:hover{
-    background-color: #F2F2F2;
-    color:#8A0829;
-}
-.col-sm-4{
-	text-align: center;
+	height: 500px;
 }
 .footer{
 	 background: #D8D8D8;
