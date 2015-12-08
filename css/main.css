@@ -3,13 +3,13 @@
 	outline: 1px solid red;
 
 }*/
-body{
-	font-family: Arial;
+.col-xs-12{
+	background-color: #DDD7CB;
 }
 .list-menu{
-	background: #D8D8D8;
+	background: #DDD7CB;
 }
-.col-sm-3{
+.col-xs-3{
 	text-align: center;
 	background: #D8D8D8;
 }
@@ -24,17 +24,30 @@ body{
 }
 .list-menu a {
 	color:white;
-	font-family: Arial;
+	font-family: "Roboto", sans-serif;
 	transition:all 0.5s;
+}
+.list-menu img:hover{
+	text-decoration: none;
+    background: #ED9818;
+    transform: scale(1.2);
 }
 .list-menu a:hover{
 	text-decoration: none;
-    background: white;
-    color: black;
-    transform: scale(1.2)
+    background: #ED9818;
+    transform: scale(1.2);
 }
 .banner{
 	width: 100%;
+	-webkit-filter: blur(3px);
+}
+.unico{
+	color:#ED9818;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 20px;
 }
 .iconos_carreras li{
 	display: inline-block;
@@ -43,28 +56,37 @@ body{
 .pregrado{
 	padding-top: 20px;
 	list-style: none;
-	background: #D8D8D8;
 }
 .pregrado a{
 	color:black;
 	transition:all 0.5s;
-	transform: scale(1.2)
 }
-.pregrado a:hover{
-    background-color: #F2F2F2;
-    color:#8A0829;
+.pregrado img:hover{
+	background-color: #EFECE7;
+    transform: scale(1.2);
 }
-.col-sm-4{
+.noti{
+	width: 450px;
+	height: 350px;
+}
+.correo{
+	width: 80px;
+	height: 30px;
+}
+.container_general{
+	background: #EFECE7;
+}
+.col-xs-4{
 	text-align: center;
 }
 .footer{
-	 background: #D8D8D8;
+	 background: #95917f;
 }
 h3{
 	color: white;
 	padding: 0 20px;
 }
-.col-sm-2{
+.col-xs-2{
 	text-align: center;
 	margin-top: 12px;
 }
